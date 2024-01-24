@@ -57,6 +57,11 @@ main {
   background-color: white;
   box-shadow: 4px 4px 10px rgb(108, 105, 105);
   border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .card h3 {
